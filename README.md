@@ -2,6 +2,8 @@ Roomba iRobot virtualwall
 
 
  - For Roomba 500, 600, 700, 800 and 900 series
+ - Uses two AA battery (2x1.5V=3V)
+ - ATTINY85 Microcontroller
 
 
 ```
