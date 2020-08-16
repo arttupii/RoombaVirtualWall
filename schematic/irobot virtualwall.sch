@@ -7034,7 +7034,7 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="IR_LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7065,7 +7065,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="95.25" y="37.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.25" y="32.258" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="114.3" y="50.8" smashed="yes" rot="R90">
+<instance part="IR_LED1" gate="G$1" x="114.3" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.872" y="54.356" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="118.872" y="56.515" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7189,7 +7189,7 @@ Source: www.kingbright.com</description>
 <wire x1="2.54" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="IR_LED1" gate="G$1" pin="C"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="119.38" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="50.8" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
@@ -7219,7 +7219,7 @@ Source: www.kingbright.com</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="IR_LED1" gate="G$1" pin="A"/>
 <wire x1="104.14" y1="40.64" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 </segment>
