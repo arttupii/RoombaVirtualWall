@@ -31,8 +31,8 @@ int main(){
     //CLKPR = 0x0 ;  // presc 1
 		 
 
-    PORTB = 0b00; 
-    DDRB = 0b11; //SET PB0 and PB1 as output
+    PORTB = 0b00000; 
+    DDRB = 0b11000; //SET PB0 and PB1 as output
 	wdt_disable();
 	
     
@@ -40,7 +40,7 @@ int main(){
 		flashTimer=0;
 		int temp = flashTimer;
 		//if(readVcc()<100) {
-			PORTB |= 0x02;
+			PORTB |= 0b1000;
 		//}
 		flashTimer = temp;
 	}
@@ -49,10 +49,10 @@ int main(){
 	while(1) {
 		for(int i=0;i<3;i++) {
 			for(int x=0;x<19;x++){  //490us
-				PORTB |= 0x01;
+				PORTB |= 0b10000;
 				_delay_us(10);
 
-				PORTB &= 0xfe;
+				PORTB &= 0b01111;
 				_delay_us(9);
 			}
 			if(i<2) {

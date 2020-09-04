@@ -15,6 +15,9 @@ Roomba iRobot virtualwall
 _____|     |_____|     |_____.....|     |_____|     |_______________......______________|      |____
 ```
 
+R1=47R
+R2=200R
+VCC=2x1.5V(AA battery) = 3V
 
 ![alt text](https://raw.githubusercontent.com/arttupii/RoombaVirtualWall/master/Pictures/schematic.PNG)
 
