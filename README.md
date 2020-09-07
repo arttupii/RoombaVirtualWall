@@ -28,3 +28,7 @@ VCC=2x1.5V(AA battery) = 3V
 
 
 ![alt text](https://raw.githubusercontent.com/arttupii/RoombaVirtualWall/master/Pictures/case.PNG)
+
+![alt text](https://github.com/arttupii/RoombaVirtualWall/raw/master/Pictures/VirtualWall.PNG)
+
+
